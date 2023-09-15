@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 5.5em;
+}
+
+.container{
+    max-width: 1080px;
+    background-color: white;
+    padding: 10px;
+    margin: 0px auto;
+   
+    
+}
+
+/*header section*/
+
+
+.profile-image{
+    width: 120px;
+    height: 130px;
+    outline: 2px solid rgb(207, 207, 207);
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    
+}
+
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 82);
+}
+
+h2, h3, h4, h5, h6{
+    color: orangered;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    transition: 0.2s;
+    color:rgb(0, 8, 122);
+ 
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    width: 100%;
+    border: 3px solid rgb(146, 146, 146);
+    border-bottom: none;
+    margin: 25px auto;
+}
+/*header section*/
+
+
+.content{
+    display:inline-flex;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.left-content{
+    margin-left: -300px;
+    width:30%; 
+}
+
+.right-content{
+    width:70%;
+    margin-left: 150px;
+}
+
+
+.content1{
+    display:inline-flex;
+    text-align: justify;
+}
+
+.left-content1{
+    margin-left: -300px;
+    width:30%;
+    
+    
+    
+    
+}
+
+.right-content1{
+    width:70%;
+    margin-left: 175px;
+}
+
+
+.skill-section{
+display: block;
+}
+
+.content2{
+    
+    display: inline-block;
+}
+
+.left-content2{
+width: 20%;
+margin-left: 25px;
+float: left;
+
+}
+
+.right-content2{
+  
+    float:right;
+    width: 80%;
+
+}
+
+.right-content2 li,p{
+margin-left: 92px;
+}
+
+.common-hr{
+    border: 2px solid rgb(211, 209, 209);
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+
+
+.content3{
+    display:inline-flex;
+    text-align: justify;
+}
+
+.left-content3{
+    margin-left: -300px;
+    width:30%; 
+}
+
+.right-content3{
+    width:70%;
+    margin-left: 219px;
+}
+
+
+
+.education-template-left{
+    width: 45%;
+    float: left;
+}
+.education-template-right{
+    width: 45%;
+    float: right;
+}
+
+.footer-container{
+    
+    background-color: #2f3640;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-container a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 15px;
+}
+
+.footer-container a:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.footer-container {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.footer-container span{
+    color: orangered;
+}
+
+.main-div{
+    background-color: #f1f2f6;
+}
+label{
+    text-align: center;
+    display: block;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .personal-section{
+        width: 100%;
+       
+    }
+    
+    .personal-section .content{
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .personal-section .content .left-content {
+       font-size: 15px;
+       position: absolute;
+       
+        
+    }
+    
+
+    .personal-section .content .right-content{
+        font-size: 12px;
+    }
+
+    .Work-section{
+        width: 100%;
+    }
+    .Work-section .content1{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+    .Work-section .content1 .left-content1{
+        position: absolute;
+        font-size: 15px;
+    }
+    .Work-section .content1 .right-content1{
+        font-size: 12px;
+    }
+    
+    .Skil-section .content2{
+        padding: 0px 15px;
+        box-sizing: border-box;
+    }
+
+    .Skil-section .content2 .right-content2{
+        font-size: 12px;
+    }
+    .education-section .content3{
+        width: 100%;
+        padding: 15px;
+    }
+    .education-section .content3 .left-content3{
+        position: absolute;
+        
+    }
+    .education-section .content3 .right-content3{
+        margin: 0px 125px;
+        font-size: 12px;
+        text-align: left;
+        
+    }
+    .education-template-left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .education-template-right{
+        width: 100%;
+    }
+
+    .footer-container{
+        font-size: 12px;
+    }
+}
