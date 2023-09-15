@@ -222,6 +222,7 @@ label{
 
     .personal-section{
         width: 100%;
+        box-sizing: border-box;
        
     }
     
@@ -229,55 +230,92 @@ label{
         width: 100%;
         padding: 15px;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
     }
     .personal-section .content .left-content {
        font-size: 15px;
        position: absolute;
-       
-        
+    
     }
+    
     
 
     .personal-section .content .right-content{
         font-size: 12px;
+        margin-top: 30px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0px;
     }
 
     .Work-section{
         width: 100%;
+        box-sizing: border-box;
     }
     .Work-section .content1{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         box-sizing: border-box;
         padding: 15px;
     }
     .Work-section .content1 .left-content1{
         position: absolute;
         font-size: 15px;
+
     }
     .Work-section .content1 .right-content1{
         font-size: 12px;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 15px;
     }
     
     .Skil-section .content2{
         padding: 0px 15px;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .Skil-section .content2 .right-content2{
         font-size: 12px;
+        width: 100%;
+        margin-top: 15px;
+        margin-left:0px ;
+    }
+    .Skil-section .content2 .right-content2 li,p {
+        margin-left: 0;
     }
     .education-section .content3{
         width: 100%;
         padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
     }
     .education-section .content3 .left-content3{
         position: absolute;
+       
         
     }
     .education-section .content3 .right-content3{
-        margin: 0px 125px;
+       width: 100%;
         font-size: 12px;
-        text-align: left;
+        margin-left: 0;
+        margin-top: 15px;
+        
+        
         
     }
     .education-template-left{
